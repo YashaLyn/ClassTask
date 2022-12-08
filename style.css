@@ -1,0 +1,11 @@
+.back{
+    position: absolute;
+    background-color: lightcoral;
+    height: 100%;
+    width: 100%;
+}
+
+.formclass {
+    margin-top: 20%;
+    margin-left: 20%;
+}
