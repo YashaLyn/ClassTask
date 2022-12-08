@@ -9,6 +9,29 @@
     <body>
         <div class="back">
             <h1 class="header">Я хачу пицццы, кто не хочет может отправить сообщение на почту</h1>
+            <div class = "container">
+                <centre>
+                    <button onclick="tap()" id="btn" class="butn">Кнопке</button>
+                </centre>
+                <div id="isid" class = "counter"></div>
+                <script>function cartewr() 
+                    {
+                        isid.innerHTML=carte;
+                    }
+                    </script>
+                    <script>
+                        var carte = ""
+                        var cards = 0;
+                        var plus = 1;
+                        btn.onclick=function tap() 
+                        {
+                            cards = cards + plus;
+                            carte = "Пицце - "+cards;
+                            cartewr();
+                        }
+                        
+                    </script>
+            </div>
             <form class="formclass" action="send.php" method="post">
                 <input class="fio" type="text" name="fio" placeholder="Укажите email" required>
                 <input class="message" type="text" name="email" placeholder="Напишите сообщение" required>

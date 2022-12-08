@@ -22,3 +22,21 @@
 .fio {
     width: 250px;
 }
+
+.container {
+    float:left;
+}
+
+.butn{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.counter {
+    float:right;
+    margin-right: 20%;
+    margin-top: 10%;
+    font-size: 20px;
+}
